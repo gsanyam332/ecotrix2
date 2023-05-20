@@ -60,7 +60,8 @@ summary(sc)
 print(sc['MSE'])
 ```
 ```{r}
-plot(sc)
+dim(X)
+plot(bw_smooth, plot.errors.boot.num=25,plot.errors.method='bootstrap',view='rotate')
 ```
 ```{r}
 plot(pl)
